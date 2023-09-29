@@ -1,0 +1,38 @@
+<application>
+  
+  <!-- Unique ID to identify this project,
+       recommend using reverse domain name notation -->
+  <id>net.maurydev.fileshare</id>
+  <version>1.0</version>
+  <name>Bluetooth - File Share</name>
+  
+  <!-- Optional tags -->
+  <description>Share your files from bluetooth</description>
+  <author>MauryDev</author>
+  <contact/>
+  
+  <!-- If this app is to be installed on the Desktop,
+       provide this tag and its children. -->
+  <gui>
+    <name>File Share</name>
+    <html>index.html</html>
+    <icon>icon.png</icon>
+    <background>true</background>
+  </gui>
+  
+  <!-- If this app is to provide commands in the Command Prompt,
+       provide this tag and a command tag for each command. -->
+  <cli>
+    <command>
+      <name>fsbt</name>
+      <description>File Share Bluetooth Commands</description>
+    </command>
+  </cli>
+  <auto-install>
+
+    <device>Laptop</device>
+    <device>Tablet</device>
+    <device>Smartphone</device>
+  </auto-install>
+  
+</application>
